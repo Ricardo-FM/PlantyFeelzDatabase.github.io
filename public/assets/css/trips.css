@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   padding: 0;
@@ -8,7 +9,7 @@ body {
   color: rgba(0, 0, 0, 0.63);
 }
 
-.trip-subcontainer{
+.plant-subcontainer {
   background: #fff;
   border: 1px solid #ddd;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -20,39 +21,44 @@ body {
   overflow: scroll;
 }
 
-.trip-radius{
-	border-radius:7px;
+.plant-radius {
+  border-radius: 7px;
 }
 
-.trip-danger {	border-color: #d9534f; }
+.plant-danger {
+  border-color: #d9534f;
+}
 
-.trip-success {	border-color: #5cb85c; }
+.plant-success {
+  border-color: #5cb85c;
+}
 
-.trip-warning {	border-color: #f0ad4e; }
-
+.plant-warning {
+  border-color: #f0ad4e;
+}
 
 .risk-analysis-container {
-	display: inline-block;
+  display: inline-block;
 }
 
-.bottom-trip-container {
-	
+.bottom-plant-container {
 }
 
 /* Map CSS */
 
-form, #map-places-container {
+form,
+#map-places-container {
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
 .pac-container {
-    background-color: #FFF;
-    z-index: 1052 !important;
-    position: fixed;
-    display: inline-block;
-    float: left;
+  background-color: #fff;
+  z-index: 1052 !important;
+  position: fixed;
+  display: inline-block;
+  float: left;
 }
 
 #map {
@@ -114,7 +120,7 @@ form, #map-places-container {
 }
 
 .btn-circle-number {
-	width: 70px;
+  width: 70px;
   height: 70px;
   font-size: 24px;
   background: white;
@@ -123,12 +129,12 @@ form, #map-places-container {
 }
 
 .btn-circle:hover {
-	background: #03a9f4;
-	color: white;
+  background: #03a9f4;
+  color: white;
 }
 
 .all-trips-container {
-	margin-top: 20%;
+  margin-top: 20%;
 }
 
 @media (min-width: 768px) {
@@ -143,18 +149,17 @@ form, #map-places-container {
 }
 
 .modal-footer {
-      padding: 0;
-  }
-    
+  padding: 0;
+}
+
 .modal-footer .btn-group button {
-  height:40px;
-  border-top-left-radius : 0;
-  border-top-right-radius : 0;
+  height: 40px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
   border: none;
   border-right: 1px solid #ddd;
 }
-  
+
 .modal-footer .btn-group:last-child > button {
   border-right: 0;
 }
-
