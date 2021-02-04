@@ -1,38 +1,38 @@
-'use strict';
+'use strict'
 
 module.exports = (sequelize, DataTypes) => {
-  const Trip = sequelize.define('Trip', {
+  const Plant = sequelize.define('Plant', {
     name: {
       type: DataTypes.STRING,
-      allowNull: true
+      allowNull: true,
     },
     destination: {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
-        len: [1]
-      }
+        len: [1],
+      },
     },
     methodOfTransport: {
       type: DataTypes.STRING,
       allowNull: false,
       validate: {
-        len: [1]
-      }
+        len: [1],
+      },
     },
     // The password cannot be null
     arrivalDate: {
       type: DataTypes.DATE,
-      allowNull: false
-    }
-  });
-  Trip.associate = models => {
+      allowNull: false,
+    },
+  })
+  Plant.associate = (models) => {
     // associations can be defined here
-    Trip.belongsTo(models.User, {
+    Plant.belongsTo(models.User, {
       foreignKey: {
-        allowNull: false
-      }
-    });
+        allowNull: false,
+      },
+    })
   }
-  return Trip;
+  return Plant
 }
