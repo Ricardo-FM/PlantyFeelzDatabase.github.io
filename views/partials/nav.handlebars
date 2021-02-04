@@ -18,9 +18,9 @@
                     <a href="#page-top"></a>
                 </li>
                 
-                <li>
+                {{!-- <li>
                     <a class="page-scroll" href="/pricing/">Pricing</a>
-                </li>
+                </li> --}}
                 {{#if isAuthenticated}}
                     <li>
                         <a class="page-scroll" href="/plants/">My Plants</a>
@@ -30,7 +30,7 @@
                     </li>
                 {{else}}
                     <li>
-                        <a class="page-scroll" data-toggle="modal" data-target="#login-modal">Login/Sign Up</a>
+                        <a class="page-scroll" data-toggle="modal" data-target="#login-modal">Login</a>
                     </li>
                 {{/if}}
             </ul>
