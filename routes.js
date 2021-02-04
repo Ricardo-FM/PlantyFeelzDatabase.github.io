@@ -6,5 +6,6 @@ module.exports = (app) => {
   app.use('/', application)
   app.use('/users', users)
   app.use('/plants', plants)
+  
   //other routes..
 }
