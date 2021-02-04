@@ -5,15 +5,15 @@ exports.index = (req, res) => {
     where: {
       UserId: req.user.id,
     },
-  }).then((dbTrip) => {
-    res.render('trips/trips', {
-      layout: 'main-trips',
-      plant: dbTrip,
+  }).then((dbPlant) => {
+    res.render('plants/plants', {
+      layout: 'main-plants',
+      plant: dbPlant,
     })
   })
 }
 
-exports.createTrip = (req, res) => {
+exports.createPlant = (req, res) => {
   // Add id from User onto req.body
   req.body.UserId = req.user.id
 
