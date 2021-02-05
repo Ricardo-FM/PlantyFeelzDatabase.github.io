@@ -1,8 +1,8 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "travelSecure_development",
+    "password": "welcome123",
+    "database": "plant_database",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
