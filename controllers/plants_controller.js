@@ -1,11 +1,7 @@
 const db = require('../models')
 
 exports.index = (req, res) => {
-  db.Plant.findAll({
-    where: {
-      UserId: req.user.id,
-    },
-  }).then((dbPlant) => {
+  db.Plant.findAll({}).then((dbPlant) => {
     res.render('plants/plants', {
       layout: 'main-plants',
       plant: dbPlant,
