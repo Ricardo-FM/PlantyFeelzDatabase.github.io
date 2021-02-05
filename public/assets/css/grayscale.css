@@ -128,8 +128,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-  background-color: black;
+  background-color: white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -303,7 +302,7 @@ body {
 }
 
 .navbar {
-  background: #03a9f4;
+  background: black;
 }
 
 .navbar-brand {
