@@ -133,12 +133,12 @@ form,
   color: white;
 }
 
-.all-trips-container {
-  margin-top: 20%;
+.all-plants-container {
+  margin-top: 5em;
 }
 
 @media (min-width: 768px) {
-  .all-trips-container {
+  .all-plants-container {
     margin-top: 10%;
   }
 }

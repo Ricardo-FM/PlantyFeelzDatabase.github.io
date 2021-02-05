@@ -6,24 +6,17 @@
     {{> login-modal }}
     <!-- Intro Header -->
 <div class="all-plants-container container">
-	<section>
+	
 	<div class="row">
 		{{#if plant }}
 		{{#each plant}}
 		<div class="plant-container col-xs-12 col-sm-6 col-lg-6">
 			<div class="plant-subcontainer plant-default">
 				<h3 class="lead">
-					Plant: {{ this.dataValues.id }} Test plant name
+					Plant: {{ this.dataValues.name }}
 				</h3>
 				<div class="bottom-plant-container">
-					<div class="risk-analysis-container">
-							{{!-- {{ riskAnalysis }} --}}
-						<p class="risk-analysis">
-							Some Kind of Risk Analysis
-						</p>
-					</div>
 					<div class="destination-container">
-							{{!-- {{ riskAnalysis }} --}}
 						<p class="destination">
 							{{ this.dataValues.destination }}
 						</p>
@@ -36,10 +29,8 @@
 		{{/if}}
 	<button id="add-plant-button" data-toggle="modal" data-target="#squarespaceModal" type="button" class="btn btn-circle"><i class="glyphicon glyphicon-plus"></i></button>
 	</div>
-    </section>
 </div>
-
-    <!-- Contact Section -->
+</body>
 
 
     <!-- Map Section -->
@@ -51,15 +42,6 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                    </li>
                     <li>
                         <a class="page-scroll" class="btn btn-default btn-lg" data-toggle="modal" data-target="#login-modal"><i class= "fa fa-user fa-fw"></i> <span class="network-name"></span>Webmaster Login</a>
                     </li>
