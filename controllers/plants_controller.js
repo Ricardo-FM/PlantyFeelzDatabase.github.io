@@ -19,3 +19,17 @@ exports.createPlant = (req, res) => {
 
   db.Plant.create(req.body).then((dbPost) => res.json(dbPost))
 }
+
+// exports.updatePlant = (req, res) => {
+//   // Add id from User onto req.body
+//   req.body.UserId = req.user.id
+
+//   db.Plant.update(req.body).then((dbPost) => res.json(dbPost))
+// }
+
+// exports.deletePlant = (req, res) => {
+//   // Add id from User onto req.body
+//   req.body.UserId = req.user.id
+
+//   db.Plant.update(req.body).then((dbPost) => res.json(dbPost))
+// }
