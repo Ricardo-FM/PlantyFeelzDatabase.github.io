@@ -9,6 +9,8 @@ body {
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: white;
   background-color: white;
+  background-image: url(../img/B.jpg);
+  background-repeat: no-repeat;
 }
 html {
   width: 100%;
