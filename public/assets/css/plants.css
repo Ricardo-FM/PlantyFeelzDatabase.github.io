@@ -113,6 +113,9 @@ form,
   margin-right: auto;
   display: block;
 }
+.btn-circle:focus {
+  color: #03a9f4;
+}
 
 .glyphicon {
   top: 3px;
@@ -162,4 +165,11 @@ form,
 
 .modal-footer .btn-group:last-child > button {
   border-right: 0;
+}
+
+#add-plant-button,
+#update-plant-button,
+#delete-plant-button {
+  display: inline-block;
+  vertical-align: top;
 }
