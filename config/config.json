@@ -3,18 +3,21 @@
     "username": "b4355e65b39199",
     "password": "c67fb2c4",
     "database": "heroku_990c696041142cc",
-    "host": "127.0.0.1",
+    "host": "us-cdbr-east-03.cleardb.com",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
     "password": null,
     "database": "database_test",
-    "host": "127.0.0.1",
+    "host": "us-cdbr-east-03.cleardb.com",
     "dialect": "mysql"
   },
   "production": {
-    "use_env_variable": "JAWSDB_URL",
+    "username": "b4355e65b39199",
+    "password": "c67fb2c4",
+    "database": "heroku_990c696041142cc",
+    "host": "us-cdbr-east-03.cleardb.com",
     "dialect": "mysql"
   }
 }
