@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "welcome123",
-    "database": "plant_database",
+    "database": "heroku_990c696041142cc",
     "host": "127.0.0.1",
     "dialect": "mysql"
   },
