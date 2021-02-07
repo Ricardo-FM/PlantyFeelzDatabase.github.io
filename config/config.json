@@ -1,7 +1,7 @@
 {
   "development": {
-    "username": "root",
-    "password": "welcome123",
+    "username": "b4355e65b39199",
+    "password": "c67fb2c4",
     "database": "heroku_990c696041142cc",
     "host": "127.0.0.1",
     "dialect": "mysql"
