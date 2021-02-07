@@ -17,6 +17,17 @@ const db = require('../models')
 app.set('port', process.env.PORT || 3000)
 
 // we sync the models with our db
+
+var express = require('express')
+var mysql = require('mysql')
+var app = express()
+app.use(express.logger())
+var connection = mysql.createConnection({
+  host: 'us-cdbr-east-03.cleardb.com',
+  user: 'b4355e65b39199',
+  password: 'c67fb2c4',
+  database: 'heroku_990c696041142cc',
+})
 // (thus creating the apropos tables)
 db.sequelize.sync().then(() => {
   // set our app to listen to the port we set above
