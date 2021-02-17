@@ -42,7 +42,7 @@ localhost:3000
 ```
 
 ### From the deployed web application
-No installation is necessary. Please access the deployed application by visiting: [https://blooming-cove-73321.herokuapp.com/](https://blooming-cove-73321.herokuapp.com/)
+No installation is necessary. Please access the deployed application by visiting: [https://cryptic-river-10933.herokuapp.com/](https://cryptic-river-10933.herokuapp.com/)
 
 ### Screenshots
 
